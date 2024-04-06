@@ -1,0 +1,149 @@
+#me {
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+nav a{
+    font-size: size 20px;
+    font-family:'Franklin Gothic Medium';
+}
+
+body {
+    background-color:rgb(130, 130, 128);
+}
+
+#paragraph{
+    font-family:'Franklin Gothic Medium';
+    justify-content: center;
+    text-align: center;
+    font-size: 25px
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo {
+    display: block;
+    margin: 10px;
+}
+
+img[photo] {
+    border: 2px;
+    margin: 10px;
+}
+
+#paragraph3 {
+    display: block;
+    margin-right:auto;
+    float: right;
+    padding: 1cm;
+    border: 10px;
+    font-family:'Franklin Gothic Medium';
+    font-size:20px;
+    margin-left: 5.3cm;
+} 
+
+#paragraph3 + p {
+    text-decoration: none;
+    color: black;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#paragraph2 {
+    float: right;
+    padding: 1cm;
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+} 
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+h1,h2 {
+    justify-content: center;
+    text-align: center;
+    white-space: pre;
+    font-family:'Franklin Gothic Medium';
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    border:15px;
+    margin:auto;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+a:hover {
+    color: rgb(25, 0, 255); 
+}
+
+@media screen and (max-width: 1300px) {
+   main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+  
+@media screen and (max-width: 700px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
+  
+
+@media screen and (max-width: 525px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+ }
+}
+  
+  

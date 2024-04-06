@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(99, 99, 97);
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333; 
+  }
+  
+  p {
+    color: #666; 
+  }
+  
+  .light-mode {
+    background-color: #f5f5f5;
+    color: #333; 
+  }
+  
+  .dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+
+  main {
+    background-color: rgb(99, 99, 97);
+    display: flex;
+    justify-content: center;
+    height: 150vh;
+    width: auto;
+  }
+  
+  #me {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+    justify-content:center;
+    text-align: center; 
+  }
+  
+  #me::first-letter {
+    font-size: large;
+  }
+  
+  nav a {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium';
+  }
+  
+  header {
+    text-align: center; 
+  }
+  
+  nav > ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+    text-align: center; 
+  }
+  
+  nav li {
+    display: inline-block; 
+    margin-right: 20px; 
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    border:15px;
+    margin:auto;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(25, 0, 255); 
+  }
+  
+  .me-text {
+    grid-row: auto;
+    grid-column: 1 / 2;
+  }
+  
+  @media screen and (max-width: 1300px) {
+    main {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    main {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+    }
+  }
+  
+  
+  @media screen and (max-width: 525px) {
+    main {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+    }
+  }
+  
+  

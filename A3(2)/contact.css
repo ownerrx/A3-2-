@@ -1,0 +1,113 @@
+#me {
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium';
+    justify-content:center;
+    text-align: center; 
+}
+
+nav a{
+    font-size: size 20px;
+    font-family:'Franklin Gothic Medium';
+}
+
+body {
+    background-color: rgb(119, 119, 118);
+}
+
+header {
+    text-align: center; 
+}
+
+.button1  {
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium';
+}
+
+#myForm1 {
+  border: 1px solid #060000;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  background-color: #d3caca;
+  font-size: 25px;
+  font-family:'Franklin Gothic Medium';
+}
+
+#message {
+  resize: none;
+ height: 100px;
+}
+
+
+#infoForm {
+  font-size: 25px;
+  font-family:'Franklin Gothic Medium';
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    border:15px;
+    margin:auto;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+a:hover {
+  color: rgb(25, 0, 255); 
+}
+
+@media screen and (max-width: 1300px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+
+@media screen and (max-width: 525px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+
